@@ -8,7 +8,9 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx ts-node src/server.ts",
+    "build:server": "npx tsc src/server.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
